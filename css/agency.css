@@ -651,68 +651,100 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+section#signup {
+    background-color:  # FFF; /* #222; */
+    /* background-image: url(../img/map-image.png); */
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
-    color: #fff;
+section#signup .section-heading {
+    color: #2c3e50;
 }
 
-section#contact .form-group {
-    margin-bottom: 25px;
+section#signup .form-group {
+    /* margin-bottom: 25px; */
+	position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
+section#signup .form-group input,
+section#signup .form-group textarea {
+    /* padding: 20px; */
+	z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
 }
 
-section#contact .form-group input.form-control {
+section#signup .form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+section#signup .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#signup .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#signup .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#signup::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#signup:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#signup::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#signup:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#signup .text-danger {
     color: #e74c3c;
 }
 
