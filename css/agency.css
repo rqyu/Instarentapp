@@ -653,7 +653,7 @@ aside.clients img {
 
 section#signup {
     background-color:  # FFF; /* #222; */
-    /* background-image: url(../img/map-image.png); */
+    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
